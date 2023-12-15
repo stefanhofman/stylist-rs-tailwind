@@ -2,6 +2,9 @@
 name = "stylist-tailwind"
 version = "0.1.0"
 edition = "2021"
+license-file = "LICENSE"
+description = "Adds a bunch of tailwind classes for stylist-rs to quickly add css to yew applications"
+keywords = ["stylist", "stylist-rs", "tailwind", "css", "yew"]
 
 [lib]
 crate-type = ["cdylib", "rlib"]
