@@ -1,11 +1,12 @@
 [package]
 name = "stylist-tailwind"
-version = "0.1.3"
+version = "0.1.4"
 edition = "2021"
+build = "build.rs"
+repository = "https://github.com/stefanhofman/stylist-rs-tailwind"
 license-file = "LICENSE"
 description = "Adds a bunch of tailwind classes for stylist-rs to quickly add css to yew applications"
 keywords = ["stylist", "stylist-rs", "tailwind", "css", "yew"]
-build = "build.rs"
 
 [lib]
 crate-type = ["cdylib", "rlib"]

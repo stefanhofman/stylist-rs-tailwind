@@ -218,3 +218,125 @@
     url = "https://tailwindcss.com/docs/hyphens"
     [components.typography.content]
     url = "https://tailwindcss.com/docs/content"
+  [components.effects]
+    [components.effects.box_shadow]
+    url = "https://tailwindcss.com/docs/box-shadow"
+    [components.effects.box_shadow_color]
+    url = "https://tailwindcss.com/docs/box-shadow-color"
+    [components.effects.opacity]
+    url = "https://tailwindcss.com/docs/opacity"
+    [components.effects.mix_blend_mode]
+    url = "https://tailwindcss.com/docs/mix-blend-mode"
+    [components.effects.background_blend_mode]
+    url = "https://tailwindcss.com/docs/background-blend-mode"
+  [components.filters]
+    [components.filters.blur]
+    url = "https://tailwindcss.com/docs/blur"
+    [components.filters.brightness]
+    url = "https://tailwindcss.com/docs/brightness"
+    [components.filters.contrast]
+    url = "https://tailwindcss.com/docs/contrast"
+    [components.filters.drop_shadow]
+    url = "https://tailwindcss.com/docs/drop-shadow"
+    [components.filters.grayscale]
+    url = "https://tailwindcss.com/docs/grayscale"
+    [components.filters.hue_rotate]
+    url = "https://tailwindcss.com/docs/hue-rotate"
+    [components.filters.invert]
+    url = "https://tailwindcss.com/docs/invert"
+    [components.filters.saturate]
+    url = "https://tailwindcss.com/docs/saturate"
+    [components.filters.sepia]
+    url = "https://tailwindcss.com/docs/sepia"
+    [components.filters.backdrop_blur]
+    url = "https://tailwindcss.com/docs/backdrop-blur"
+    [components.filters.backdrop_brightness]
+    url = "https://tailwindcss.com/docs/backdrop-brightness"
+    [components.filters.backdrop_contrast]
+    url = "https://tailwindcss.com/docs/backdrop-contrast"
+    [components.filters.backdrop_grayscale]
+    url = "https://tailwindcss.com/docs/backdrop-grayscale"
+    [components.filters.backdrop_hue_rotate]
+    url = "https://tailwindcss.com/docs/backdrop-hue-rotate"
+    [components.filters.backdrop_invert]
+    url = "https://tailwindcss.com/docs/backdrop-invert"
+    [components.filters.backdrop_opacity]
+    url = "https://tailwindcss.com/docs/backdrop-opacity"
+    [components.filters.backdrop_saturate]
+    url = "https://tailwindcss.com/docs/backdrop-saturate"
+    [components.filters.backdrop_sepia]
+    url = "https://tailwindcss.com/docs/backdrop-sepia"
+  [components.tables]
+    [components.tables.border_collapse]
+    url = "https://tailwindcss.com/docs/border-collapse"
+    [components.tables.border_spacing]
+    url = "https://tailwindcss.com/docs/border-spacing"
+    [components.tables.table_layout]
+    url = "https://tailwindcss.com/docs/table-layout"
+    [components.tables.caption_side]
+    url = "https://tailwindcss.com/docs/caption-side"
+  [components.transition_and_animation]
+    [components.transition_and_animation.transition_property]
+    url = "https://tailwindcss.com/docs/transition-property"
+    [components.transition_and_animation.transition_duration]
+    url = "https://tailwindcss.com/docs/transition-duration"
+    [components.transition_and_animation.transition_timing_function]
+    url = "https://tailwindcss.com/docs/transition-timing-function"
+    [components.transition_and_animation.transition_delay]
+    url = "https://tailwindcss.com/docs/transition-delay"
+    [components.transition_and_animation.animation]
+    url = "https://tailwindcss.com/docs/animation"
+  [components.transforms]
+    [components.transforms.scale]
+    url = "https://tailwindcss.com/docs/scale"
+    [components.transforms.rotate]
+    url = "https://tailwindcss.com/docs/rotate"
+    [components.transforms.translate]
+    url = "https://tailwindcss.com/docs/translate"
+    [components.transforms.skew]
+    url = "https://tailwindcss.com/docs/skew"
+    [components.transforms.transform_origin]
+    url = "https://tailwindcss.com/docs/transform-origin"
+  [components.interactivity]
+    [components.interactivity.accent_color]
+    url = "https://tailwindcss.com/docs/accent-color"
+    [components.interactivity.appearance]
+    url = "https://tailwindcss.com/docs/appearance"
+    [components.interactivity.cursor]
+    url = "https://tailwindcss.com/docs/cursor"
+    [components.interactivity.caret_color]
+    url = "https://tailwindcss.com/docs/caret-color"
+    [components.interactivity.pointer_events]
+    url = "https://tailwindcss.com/docs/pointer-events"
+    [components.interactivity.resize]
+    url = "https://tailwindcss.com/docs/resize"
+    [components.interactivity.scroll_behavior]
+    url = "https://tailwindcss.com/docs/scroll-behavior"
+    [components.interactivity.scroll_margin]
+    url = "https://tailwindcss.com/docs/scroll-margin"
+    [components.interactivity.scroll_padding]
+    url = "https://tailwindcss.com/docs/scroll-padding"
+    [components.interactivity.scroll_snap_align]
+    url = "https://tailwindcss.com/docs/scroll-snap-align"
+    [components.interactivity.scroll_snap_stop]
+    url = "https://tailwindcss.com/docs/scroll-snap-stop"
+    [components.interactivity.scroll_snap_type]
+    url = "https://tailwindcss.com/docs/scroll-snap-type"
+    [components.interactivity.touch_action]
+    url = "https://tailwindcss.com/docs/touch-action"
+    [components.interactivity.user_select]
+    url = "https://tailwindcss.com/docs/user-select"
+    [components.interactivity.will_change]
+    url = "https://tailwindcss.com/docs/will-change"
+  [components.svg]
+    [components.svg.fill]
+    url = "https://tailwindcss.com/docs/fill"
+    [components.svg.stroke]
+    url = "https://tailwindcss.com/docs/stroke"
+    [components.svg.stroke_width]
+    url = "https://tailwindcss.com/docs/stroke-width"
+  [components.accessibility]
+    [components.accessibility.screen_readers]
+    url = "https://tailwindcss.com/docs/screen-readers"
+    [components.accessibility.forced_color_adjust]
+    url = "https://tailwindcss.com/docs/forced-color-adjust"
