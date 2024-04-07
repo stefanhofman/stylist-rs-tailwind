@@ -1236,107 +1236,107 @@ pub fn from_rose_950() -> Style {
 }
 
 /// Tailwind `from-0%`; css `--tw-gradient-from-position: 0%;`
-pub fn from_0%() -> Style {
+pub fn from_0p() -> Style {
     Style::new(css!("--tw-gradient-from-position: 0%;")).unwrap()
 }
 
 /// Tailwind `from-5%`; css `--tw-gradient-from-position: 5%;`
-pub fn from_5%() -> Style {
+pub fn from_5p() -> Style {
     Style::new(css!("--tw-gradient-from-position: 5%;")).unwrap()
 }
 
 /// Tailwind `from-10%`; css `--tw-gradient-from-position: 10%;`
-pub fn from_10%() -> Style {
+pub fn from_10p() -> Style {
     Style::new(css!("--tw-gradient-from-position: 10%;")).unwrap()
 }
 
 /// Tailwind `from-15%`; css `--tw-gradient-from-position: 15%;`
-pub fn from_15%() -> Style {
+pub fn from_15p() -> Style {
     Style::new(css!("--tw-gradient-from-position: 15%;")).unwrap()
 }
 
 /// Tailwind `from-20%`; css `--tw-gradient-from-position: 20%;`
-pub fn from_20%() -> Style {
+pub fn from_20p() -> Style {
     Style::new(css!("--tw-gradient-from-position: 20%;")).unwrap()
 }
 
 /// Tailwind `from-25%`; css `--tw-gradient-from-position: 25%;`
-pub fn from_25%() -> Style {
+pub fn from_25p() -> Style {
     Style::new(css!("--tw-gradient-from-position: 25%;")).unwrap()
 }
 
 /// Tailwind `from-30%`; css `--tw-gradient-from-position: 30%;`
-pub fn from_30%() -> Style {
+pub fn from_30p() -> Style {
     Style::new(css!("--tw-gradient-from-position: 30%;")).unwrap()
 }
 
 /// Tailwind `from-35%`; css `--tw-gradient-from-position: 35%;`
-pub fn from_35%() -> Style {
+pub fn from_35p() -> Style {
     Style::new(css!("--tw-gradient-from-position: 35%;")).unwrap()
 }
 
 /// Tailwind `from-40%`; css `--tw-gradient-from-position: 40%;`
-pub fn from_40%() -> Style {
+pub fn from_40p() -> Style {
     Style::new(css!("--tw-gradient-from-position: 40%;")).unwrap()
 }
 
 /// Tailwind `from-45%`; css `--tw-gradient-from-position: 45%;`
-pub fn from_45%() -> Style {
+pub fn from_45p() -> Style {
     Style::new(css!("--tw-gradient-from-position: 45%;")).unwrap()
 }
 
 /// Tailwind `from-50%`; css `--tw-gradient-from-position: 50%;`
-pub fn from_50%() -> Style {
+pub fn from_50p() -> Style {
     Style::new(css!("--tw-gradient-from-position: 50%;")).unwrap()
 }
 
 /// Tailwind `from-55%`; css `--tw-gradient-from-position: 55%;`
-pub fn from_55%() -> Style {
+pub fn from_55p() -> Style {
     Style::new(css!("--tw-gradient-from-position: 55%;")).unwrap()
 }
 
 /// Tailwind `from-60%`; css `--tw-gradient-from-position: 60%;`
-pub fn from_60%() -> Style {
+pub fn from_60p() -> Style {
     Style::new(css!("--tw-gradient-from-position: 60%;")).unwrap()
 }
 
 /// Tailwind `from-65%`; css `--tw-gradient-from-position: 65%;`
-pub fn from_65%() -> Style {
+pub fn from_65p() -> Style {
     Style::new(css!("--tw-gradient-from-position: 65%;")).unwrap()
 }
 
 /// Tailwind `from-70%`; css `--tw-gradient-from-position: 70%;`
-pub fn from_70%() -> Style {
+pub fn from_70p() -> Style {
     Style::new(css!("--tw-gradient-from-position: 70%;")).unwrap()
 }
 
 /// Tailwind `from-75%`; css `--tw-gradient-from-position: 75%;`
-pub fn from_75%() -> Style {
+pub fn from_75p() -> Style {
     Style::new(css!("--tw-gradient-from-position: 75%;")).unwrap()
 }
 
 /// Tailwind `from-80%`; css `--tw-gradient-from-position: 80%;`
-pub fn from_80%() -> Style {
+pub fn from_80p() -> Style {
     Style::new(css!("--tw-gradient-from-position: 80%;")).unwrap()
 }
 
 /// Tailwind `from-85%`; css `--tw-gradient-from-position: 85%;`
-pub fn from_85%() -> Style {
+pub fn from_85p() -> Style {
     Style::new(css!("--tw-gradient-from-position: 85%;")).unwrap()
 }
 
 /// Tailwind `from-90%`; css `--tw-gradient-from-position: 90%;`
-pub fn from_90%() -> Style {
+pub fn from_90p() -> Style {
     Style::new(css!("--tw-gradient-from-position: 90%;")).unwrap()
 }
 
 /// Tailwind `from-95%`; css `--tw-gradient-from-position: 95%;`
-pub fn from_95%() -> Style {
+pub fn from_95p() -> Style {
     Style::new(css!("--tw-gradient-from-position: 95%;")).unwrap()
 }
 
 /// Tailwind `from-100%`; css `--tw-gradient-from-position: 100%;`
-pub fn from_100%() -> Style {
+pub fn from_100p() -> Style {
     Style::new(css!("--tw-gradient-from-position: 100%;")).unwrap()
 }
 
@@ -2576,107 +2576,107 @@ pub fn via_rose_950() -> Style {
 }
 
 /// Tailwind `via-0%`; css `--tw-gradient-via-position: 0%;`
-pub fn via_0%() -> Style {
+pub fn via_0p() -> Style {
     Style::new(css!("--tw-gradient-via-position: 0%;")).unwrap()
 }
 
 /// Tailwind `via-5%`; css `--tw-gradient-via-position: 5%;`
-pub fn via_5%() -> Style {
+pub fn via_5p() -> Style {
     Style::new(css!("--tw-gradient-via-position: 5%;")).unwrap()
 }
 
 /// Tailwind `via-10%`; css `--tw-gradient-via-position: 10%;`
-pub fn via_10%() -> Style {
+pub fn via_10p() -> Style {
     Style::new(css!("--tw-gradient-via-position: 10%;")).unwrap()
 }
 
 /// Tailwind `via-15%`; css `--tw-gradient-via-position: 15%;`
-pub fn via_15%() -> Style {
+pub fn via_15p() -> Style {
     Style::new(css!("--tw-gradient-via-position: 15%;")).unwrap()
 }
 
 /// Tailwind `via-20%`; css `--tw-gradient-via-position: 20%;`
-pub fn via_20%() -> Style {
+pub fn via_20p() -> Style {
     Style::new(css!("--tw-gradient-via-position: 20%;")).unwrap()
 }
 
 /// Tailwind `via-25%`; css `--tw-gradient-via-position: 25%;`
-pub fn via_25%() -> Style {
+pub fn via_25p() -> Style {
     Style::new(css!("--tw-gradient-via-position: 25%;")).unwrap()
 }
 
 /// Tailwind `via-30%`; css `--tw-gradient-via-position: 30%;`
-pub fn via_30%() -> Style {
+pub fn via_30p() -> Style {
     Style::new(css!("--tw-gradient-via-position: 30%;")).unwrap()
 }
 
 /// Tailwind `via-35%`; css `--tw-gradient-via-position: 35%;`
-pub fn via_35%() -> Style {
+pub fn via_35p() -> Style {
     Style::new(css!("--tw-gradient-via-position: 35%;")).unwrap()
 }
 
 /// Tailwind `via-40%`; css `--tw-gradient-via-position: 40%;`
-pub fn via_40%() -> Style {
+pub fn via_40p() -> Style {
     Style::new(css!("--tw-gradient-via-position: 40%;")).unwrap()
 }
 
 /// Tailwind `via-45%`; css `--tw-gradient-via-position: 45%;`
-pub fn via_45%() -> Style {
+pub fn via_45p() -> Style {
     Style::new(css!("--tw-gradient-via-position: 45%;")).unwrap()
 }
 
 /// Tailwind `via-50%`; css `--tw-gradient-via-position: 50%;`
-pub fn via_50%() -> Style {
+pub fn via_50p() -> Style {
     Style::new(css!("--tw-gradient-via-position: 50%;")).unwrap()
 }
 
 /// Tailwind `via-55%`; css `--tw-gradient-via-position: 55%;`
-pub fn via_55%() -> Style {
+pub fn via_55p() -> Style {
     Style::new(css!("--tw-gradient-via-position: 55%;")).unwrap()
 }
 
 /// Tailwind `via-60%`; css `--tw-gradient-via-position: 60%;`
-pub fn via_60%() -> Style {
+pub fn via_60p() -> Style {
     Style::new(css!("--tw-gradient-via-position: 60%;")).unwrap()
 }
 
 /// Tailwind `via-65%`; css `--tw-gradient-via-position: 65%;`
-pub fn via_65%() -> Style {
+pub fn via_65p() -> Style {
     Style::new(css!("--tw-gradient-via-position: 65%;")).unwrap()
 }
 
 /// Tailwind `via-70%`; css `--tw-gradient-via-position: 70%;`
-pub fn via_70%() -> Style {
+pub fn via_70p() -> Style {
     Style::new(css!("--tw-gradient-via-position: 70%;")).unwrap()
 }
 
 /// Tailwind `via-75%`; css `--tw-gradient-via-position: 75%;`
-pub fn via_75%() -> Style {
+pub fn via_75p() -> Style {
     Style::new(css!("--tw-gradient-via-position: 75%;")).unwrap()
 }
 
 /// Tailwind `via-80%`; css `--tw-gradient-via-position: 80%;`
-pub fn via_80%() -> Style {
+pub fn via_80p() -> Style {
     Style::new(css!("--tw-gradient-via-position: 80%;")).unwrap()
 }
 
 /// Tailwind `via-85%`; css `--tw-gradient-via-position: 85%;`
-pub fn via_85%() -> Style {
+pub fn via_85p() -> Style {
     Style::new(css!("--tw-gradient-via-position: 85%;")).unwrap()
 }
 
 /// Tailwind `via-90%`; css `--tw-gradient-via-position: 90%;`
-pub fn via_90%() -> Style {
+pub fn via_90p() -> Style {
     Style::new(css!("--tw-gradient-via-position: 90%;")).unwrap()
 }
 
 /// Tailwind `via-95%`; css `--tw-gradient-via-position: 95%;`
-pub fn via_95%() -> Style {
+pub fn via_95p() -> Style {
     Style::new(css!("--tw-gradient-via-position: 95%;")).unwrap()
 }
 
 /// Tailwind `via-100%`; css `--tw-gradient-via-position: 100%;`
-pub fn via_100%() -> Style {
+pub fn via_100p() -> Style {
     Style::new(css!("--tw-gradient-via-position: 100%;")).unwrap()
 }
 
@@ -3916,107 +3916,107 @@ pub fn to_rose_950() -> Style {
 }
 
 /// Tailwind `to-0%`; css `--tw-gradient-to-position: 0%;`
-pub fn to_0%() -> Style {
+pub fn to_0p() -> Style {
     Style::new(css!("--tw-gradient-to-position: 0%;")).unwrap()
 }
 
 /// Tailwind `to-5%`; css `--tw-gradient-to-position: 5%;`
-pub fn to_5%() -> Style {
+pub fn to_5p() -> Style {
     Style::new(css!("--tw-gradient-to-position: 5%;")).unwrap()
 }
 
 /// Tailwind `to-10%`; css `--tw-gradient-to-position: 10%;`
-pub fn to_10%() -> Style {
+pub fn to_10p() -> Style {
     Style::new(css!("--tw-gradient-to-position: 10%;")).unwrap()
 }
 
 /// Tailwind `to-15%`; css `--tw-gradient-to-position: 15%;`
-pub fn to_15%() -> Style {
+pub fn to_15p() -> Style {
     Style::new(css!("--tw-gradient-to-position: 15%;")).unwrap()
 }
 
 /// Tailwind `to-20%`; css `--tw-gradient-to-position: 20%;`
-pub fn to_20%() -> Style {
+pub fn to_20p() -> Style {
     Style::new(css!("--tw-gradient-to-position: 20%;")).unwrap()
 }
 
 /// Tailwind `to-25%`; css `--tw-gradient-to-position: 25%;`
-pub fn to_25%() -> Style {
+pub fn to_25p() -> Style {
     Style::new(css!("--tw-gradient-to-position: 25%;")).unwrap()
 }
 
 /// Tailwind `to-30%`; css `--tw-gradient-to-position: 30%;`
-pub fn to_30%() -> Style {
+pub fn to_30p() -> Style {
     Style::new(css!("--tw-gradient-to-position: 30%;")).unwrap()
 }
 
 /// Tailwind `to-35%`; css `--tw-gradient-to-position: 35%;`
-pub fn to_35%() -> Style {
+pub fn to_35p() -> Style {
     Style::new(css!("--tw-gradient-to-position: 35%;")).unwrap()
 }
 
 /// Tailwind `to-40%`; css `--tw-gradient-to-position: 40%;`
-pub fn to_40%() -> Style {
+pub fn to_40p() -> Style {
     Style::new(css!("--tw-gradient-to-position: 40%;")).unwrap()
 }
 
 /// Tailwind `to-45%`; css `--tw-gradient-to-position: 45%;`
-pub fn to_45%() -> Style {
+pub fn to_45p() -> Style {
     Style::new(css!("--tw-gradient-to-position: 45%;")).unwrap()
 }
 
 /// Tailwind `to-50%`; css `--tw-gradient-to-position: 50%;`
-pub fn to_50%() -> Style {
+pub fn to_50p() -> Style {
     Style::new(css!("--tw-gradient-to-position: 50%;")).unwrap()
 }
 
 /// Tailwind `to-55%`; css `--tw-gradient-to-position: 55%;`
-pub fn to_55%() -> Style {
+pub fn to_55p() -> Style {
     Style::new(css!("--tw-gradient-to-position: 55%;")).unwrap()
 }
 
 /// Tailwind `to-60%`; css `--tw-gradient-to-position: 60%;`
-pub fn to_60%() -> Style {
+pub fn to_60p() -> Style {
     Style::new(css!("--tw-gradient-to-position: 60%;")).unwrap()
 }
 
 /// Tailwind `to-65%`; css `--tw-gradient-to-position: 65%;`
-pub fn to_65%() -> Style {
+pub fn to_65p() -> Style {
     Style::new(css!("--tw-gradient-to-position: 65%;")).unwrap()
 }
 
 /// Tailwind `to-70%`; css `--tw-gradient-to-position: 70%;`
-pub fn to_70%() -> Style {
+pub fn to_70p() -> Style {
     Style::new(css!("--tw-gradient-to-position: 70%;")).unwrap()
 }
 
 /// Tailwind `to-75%`; css `--tw-gradient-to-position: 75%;`
-pub fn to_75%() -> Style {
+pub fn to_75p() -> Style {
     Style::new(css!("--tw-gradient-to-position: 75%;")).unwrap()
 }
 
 /// Tailwind `to-80%`; css `--tw-gradient-to-position: 80%;`
-pub fn to_80%() -> Style {
+pub fn to_80p() -> Style {
     Style::new(css!("--tw-gradient-to-position: 80%;")).unwrap()
 }
 
 /// Tailwind `to-85%`; css `--tw-gradient-to-position: 85%;`
-pub fn to_85%() -> Style {
+pub fn to_85p() -> Style {
     Style::new(css!("--tw-gradient-to-position: 85%;")).unwrap()
 }
 
 /// Tailwind `to-90%`; css `--tw-gradient-to-position: 90%;`
-pub fn to_90%() -> Style {
+pub fn to_90p() -> Style {
     Style::new(css!("--tw-gradient-to-position: 90%;")).unwrap()
 }
 
 /// Tailwind `to-95%`; css `--tw-gradient-to-position: 95%;`
-pub fn to_95%() -> Style {
+pub fn to_95p() -> Style {
     Style::new(css!("--tw-gradient-to-position: 95%;")).unwrap()
 }
 
 /// Tailwind `to-100%`; css `--tw-gradient-to-position: 100%;`
-pub fn to_100%() -> Style {
+pub fn to_100p() -> Style {
     Style::new(css!("--tw-gradient-to-position: 100%;")).unwrap()
 }
 

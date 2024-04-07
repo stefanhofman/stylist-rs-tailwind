@@ -1,38 +1,41 @@
 use scraper::{element_ref::ElementRef, Html, Node, Selector};
 use std::io::prelude::*;
-use std::{env, fs, fs::File};
+use std::{fs, fs::File};
 use toml::{Table, Value};
 
 fn main() {
-    let args: Vec<String> = env::args().collect();
-
+    let mut lib_file = File::create("src/lib.rs").unwrap();
     let config = read_config();
     if let Value::Table(table) = config["components"].clone() {
-        table.iter().for_each(|item| {
-            write_mod(item);
+        table.iter().for_each(|component| {
+            lib_file
+                .write_all(format!("pub mod {};\n", component.0).as_bytes())
+                .unwrap();
+            write_mod(component);
         });
     }
-    //println!("{:?}", config["components"]);
 }
 
 fn read_config() -> Table {
-    let toml = fs::read_to_string("src/config.toml").unwrap();
+    let toml = fs::read_to_string("config.toml").unwrap();
     toml.parse::<Table>().unwrap()
 }
 
 fn write_mod(component: (&String, &Value)) {
     fs::create_dir_all(format!("src/{}", component.0)).unwrap();
-    let mut file = File::create(format!("src/{}/mod.rs", component.0)).unwrap();
+    let mut mod_file = File::create(format!("src/{}/mod.rs", component.0)).unwrap();
     if let Value::Table(table) = component.1 {
         table.iter().for_each(|sub_component| {
             if let Value::Table(sub_component_details) = sub_component.1 {
                 if let Value::String(url) = sub_component_details["url"].clone() {
-                    file.write_all(format!("/// [{}]({})\n", url, url).as_bytes())
+                    mod_file
+                        .write_all(format!("/// [{}]({})\n", url, url).as_bytes())
                         .unwrap();
                     write_stylesheet(url, component.0, sub_component.0);
                 }
             }
-            file.write_all(format!("pub mod {};\n", sub_component.0).as_bytes())
+            mod_file
+                .write_all(format!("pub mod {};\n", sub_component.0).as_bytes())
                 .unwrap();
         });
     }
@@ -41,7 +44,6 @@ fn write_mod(component: (&String, &Value)) {
 fn write_stylesheet(url: String, component: &String, sub_component: &String) {
     let html = reqwest::blocking::get(url).unwrap().text().unwrap();
 
-    //let html = fs::read_to_string(args[1].clone()).unwrap();
     let mut file = File::create(format!("src/{}/{}.rs", component, sub_component)).unwrap();
     file.write_all(b"use stylist::{css, Style};\n\n").unwrap();
 
@@ -55,7 +57,14 @@ fn write_stylesheet(url: String, component: &String, sub_component: &String) {
         let selector = Selector::parse("td").unwrap();
         let rows: Vec<ElementRef> = element.select(&selector).collect();
         if rows.len() >= 2 {
-            let row_0 = rows[0].inner_html();
+            let row_0 = rows[0]
+                .children()
+                .filter_map(|node| match node.value() {
+                    Node::Text(text) => Some(&text[..]),
+                    _ => None,
+                })
+                .collect::<Vec<_>>()
+                .join("");
             let row_1 = rows[1]
                 .children()
                 .filter_map(|node| match node.value() {
@@ -75,7 +84,12 @@ fn write_stylesheet(url: String, component: &String, sub_component: &String) {
 
             let function = format!(
                 "pub fn {}() -> Style {{\n    Style::new(css!(\"{}\")).unwrap()\n}}\n",
-                row_0.replace("-", "_").replace("/", "d"),
+                row_0
+                    .replace("-", "_")
+                    .replace("/", "d")
+                    .replace("%", "p")
+                    .replace(".", "_")
+                    .replace("static", "r#static"),
                 row_1.replace(r#"""#, r#"\""#),
             );
             file.write_all(format!("{}\n", function).as_bytes())

@@ -1,26 +1,27 @@
 use stylist::{css, Style};
 
-/// Tailwind `justify-self-auto`; css `justify-self: auto`
+/// Tailwind `justify-self-auto`; css `justify-self: auto;`
 pub fn justify_self_auto() -> Style {
     Style::new(css!("justify-self: auto;")).unwrap()
 }
 
-/// Tailwind `justify-self-start`; css `justify-self: flex-start`
+/// Tailwind `justify-self-start`; css `justify-self: start;`
 pub fn justify_self_start() -> Style {
-    Style::new(css!("justify-self: flex-start;")).unwrap()
+    Style::new(css!("justify-self: start;")).unwrap()
 }
 
-/// Tailwind `justify-self-end`; css `justify-self: flex-end`
+/// Tailwind `justify-self-end`; css `justify-self: end;`
 pub fn justify_self_end() -> Style {
-    Style::new(css!("justify-self: flex-end;")).unwrap()
+    Style::new(css!("justify-self: end;")).unwrap()
 }
 
-/// Tailwind `justify-self-center`; css `justify-self: center`
+/// Tailwind `justify-self-center`; css `justify-self: center;`
 pub fn justify_self_center() -> Style {
     Style::new(css!("justify-self: center;")).unwrap()
 }
 
-/// Tailwind `justify-self-stretch`; css `justify-self: stretch`
+/// Tailwind `justify-self-stretch`; css `justify-self: stretch;`
 pub fn justify_self_stretch() -> Style {
     Style::new(css!("justify-self: stretch;")).unwrap()
 }
+

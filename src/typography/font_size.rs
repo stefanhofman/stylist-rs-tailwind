@@ -64,3 +64,4 @@ pub fn text_8xl() -> Style {
 pub fn text_9xl() -> Style {
     Style::new(css!("font-size: 8rem; line-height: 1;")).unwrap()
 }
+

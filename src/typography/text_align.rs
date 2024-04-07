@@ -19,3 +19,14 @@ pub fn text_right() -> Style {
 pub fn text_justify() -> Style {
     Style::new(css!("text-align: justify;")).unwrap()
 }
+
+/// Tailwind `text-start`; css `text-align: start;`
+pub fn text_start() -> Style {
+    Style::new(css!("text-align: start;")).unwrap()
+}
+
+/// Tailwind `text-end`; css `text-align: end;`
+pub fn text_end() -> Style {
+    Style::new(css!("text-align: end;")).unwrap()
+}
+

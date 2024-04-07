@@ -1,0 +1,220 @@
+[components]
+  [components.backgrounds]
+    [components.backgrounds.background_attachment]
+    url = "https://tailwindcss.com/docs/background-attachment"
+    [components.backgrounds.background_clip]
+    url = "https://tailwindcss.com/docs/background-clip"
+    [components.backgrounds.background_color]
+    url = "https://tailwindcss.com/docs/background-color"
+    [components.backgrounds.background_origin]
+    url = "https://tailwindcss.com/docs/background-origin"
+    [components.backgrounds.background_position]
+    url = "https://tailwindcss.com/docs/background-position"
+    [components.backgrounds.background_repeat]
+    url = "https://tailwindcss.com/docs/background-repeat"
+    [components.backgrounds.background_size]
+    url = "https://tailwindcss.com/docs/background-size"
+    [components.backgrounds.background_image]
+    url = "https://tailwindcss.com/docs/background-image"
+    [components.backgrounds.gradient_color_stops]
+    url = "https://tailwindcss.com/docs/gradient-color-stops"
+  [components.borders]
+    [components.borders.border_radius]
+    url = "https://tailwindcss.com/docs/border-radius"
+    [components.borders.border_width]
+    url = "https://tailwindcss.com/docs/border-width"
+    [components.borders.border_color]
+    url = "https://tailwindcss.com/docs/border-color"
+    [components.borders.border_style]
+    url = "https://tailwindcss.com/docs/border-style"
+    [components.borders.divide_width]
+    url = "https://tailwindcss.com/docs/divide-width"
+    [components.borders.divide_color]
+    url = "https://tailwindcss.com/docs/divide-color"
+    [components.borders.divide_style]
+    url = "https://tailwindcss.com/docs/divide-style"
+    [components.borders.outline_width]
+    url = "https://tailwindcss.com/docs/outline-width"
+    [components.borders.outline_color]
+    url = "https://tailwindcss.com/docs/outline-color"
+    [components.borders.outline_style]
+    url = "https://tailwindcss.com/docs/outline-style"
+    [components.borders.outline_offset]
+    url = "https://tailwindcss.com/docs/outline-offset"
+    [components.borders.ring_width]
+    url = "https://tailwindcss.com/docs/ring-width"
+    [components.borders.ring_color]
+    url = "https://tailwindcss.com/docs/ring-color"
+    [components.borders.ring_offset_width]
+    url = "https://tailwindcss.com/docs/ring-offset-width"
+    [components.borders.ring_offset_color]
+    url = "https://tailwindcss.com/docs/ring-offset-color"
+  [components.flexbox_and_grid]
+    [components.flexbox_and_grid.flex_basis]
+    url = "https://tailwindcss.com/docs/flex-basis"
+    [components.flexbox_and_grid.flex_direction]
+    url = "https://tailwindcss.com/docs/flex-direction"
+    [components.flexbox_and_grid.flex_wrap]
+    url = "https://tailwindcss.com/docs/flex-wrap"
+    [components.flexbox_and_grid.flex]
+    url = "https://tailwindcss.com/docs/flex"
+    [components.flexbox_and_grid.flex_grow]
+    url = "https://tailwindcss.com/docs/flex-grow"
+    [components.flexbox_and_grid.flex_shrink]
+    url = "https://tailwindcss.com/docs/flex-shrink"
+    [components.flexbox_and_grid.order]
+    url = "https://tailwindcss.com/docs/order"
+    [components.flexbox_and_grid.grid_template_columns]
+    url = "https://tailwindcss.com/docs/grid-template-columns"
+    [components.flexbox_and_grid.grid_column]
+    url = "https://tailwindcss.com/docs/grid-column"
+    [components.flexbox_and_grid.grid_template_rows]
+    url = "https://tailwindcss.com/docs/grid-template-rows"
+    [components.flexbox_and_grid.grid_row]
+    url = "https://tailwindcss.com/docs/grid-row"
+    [components.flexbox_and_grid.grid_auto_flow]
+    url = "https://tailwindcss.com/docs/grid-auto-flow"
+    [components.flexbox_and_grid.grid_auto_columns]
+    url = "https://tailwindcss.com/docs/grid-auto-columns"
+    [components.flexbox_and_grid.grid_auto_rows]
+    url = "https://tailwindcss.com/docs/grid-auto-rows"
+    [components.flexbox_and_grid.gap]
+    url = "https://tailwindcss.com/docs/gap"
+    [components.flexbox_and_grid.justify_content]
+    url = "https://tailwindcss.com/docs/justify-content"
+    [components.flexbox_and_grid.justify_items]
+    url = "https://tailwindcss.com/docs/justify-items"
+    [components.flexbox_and_grid.justify_self]
+    url = "https://tailwindcss.com/docs/justify-self"
+    [components.flexbox_and_grid.align_content]
+    url = "https://tailwindcss.com/docs/align-content"
+    [components.flexbox_and_grid.align_items]
+    url = "https://tailwindcss.com/docs/align-items"
+    [components.flexbox_and_grid.align_self]
+    url = "https://tailwindcss.com/docs/align-self"
+    [components.flexbox_and_grid.place_content]
+    url = "https://tailwindcss.com/docs/place-content"
+    [components.flexbox_and_grid.place_items]
+    url = "https://tailwindcss.com/docs/place-items"
+    [components.flexbox_and_grid.place_self]
+    url = "https://tailwindcss.com/docs/place-self"
+  [components.layout]
+    [components.layout.aspect_ratio]
+    url = "https://tailwindcss.com/docs/aspect-ratio"
+    # [components.layout.container]
+    # url = "https://tailwindcss.com/docs/container"
+    [components.layout.columns]
+    url = "https://tailwindcss.com/docs/columns"
+    [components.layout.break_after]
+    url = "https://tailwindcss.com/docs/break-after"
+    [components.layout.break_before]
+    url = "https://tailwindcss.com/docs/break-before"
+    [components.layout.break_inside]
+    url = "https://tailwindcss.com/docs/break-inside"
+    [components.layout.box_decoration_break]
+    url = "https://tailwindcss.com/docs/box-decoration-break"
+    [components.layout.box_decoration_sizing]
+    url = "https://tailwindcss.com/docs/box-sizing"
+    [components.layout.box_display]
+    url = "https://tailwindcss.com/docs/display"
+    [components.layout.float]
+    url = "https://tailwindcss.com/docs/float"
+    [components.layout.clear]
+    url = "https://tailwindcss.com/docs/clear"
+    [components.layout.isolation]
+    url = "https://tailwindcss.com/docs/isolation"
+    [components.layout.object_fit]
+    url = "https://tailwindcss.com/docs/object-fit"
+    [components.layout.object_position]
+    url = "https://tailwindcss.com/docs/object-position"
+    [components.layout.overflow]
+    url = "https://tailwindcss.com/docs/overflow"
+    [components.layout.overflowscroll]
+    url = "https://tailwindcss.com/docs/overscroll-behavior"
+    [components.layout.position]
+    url = "https://tailwindcss.com/docs/position"
+    [components.layout.top_right_bottom_left]
+    url = "https://tailwindcss.com/docs/top-right-bottom-left"
+    [components.layout.visibility]
+    url = "https://tailwindcss.com/docs/visibility"
+    [components.layout.z_index]
+    url = "https://tailwindcss.com/docs/z-index"
+  [components.sizing]
+    [components.sizing.width]
+    url = "https://tailwindcss.com/docs/width"
+    [components.sizing.min_width]
+    url = "https://tailwindcss.com/docs/min-width"
+    [components.sizing.max_width]
+    url = "https://tailwindcss.com/docs/max-width"
+    [components.sizing.height]
+    url = "https://tailwindcss.com/docs/height"
+    [components.sizing.min_height]
+    url = "https://tailwindcss.com/docs/min-height"
+    [components.sizing.max_height]
+    url = "https://tailwindcss.com/docs/max-height"
+    [components.sizing.size]
+    url = "https://tailwindcss.com/docs/size"
+  [components.spacing]
+    [components.spacing.padding]
+    url = "https://tailwindcss.com/docs/padding"
+    [components.spacing.margin]
+    url = "https://tailwindcss.com/docs/margin"
+    [components.spacing.space_between]
+    url = "https://tailwindcss.com/docs/space"
+  [components.typography]
+    [components.typography.font_family]
+    url = "https://tailwindcss.com/docs/font-family"
+    [components.typography.font_size]
+    url = "https://tailwindcss.com/docs/font-size"
+    [components.typography.font_smoothing]
+    url = "https://tailwindcss.com/docs/font-smoothing"
+    [components.typography.font_style]
+    url = "https://tailwindcss.com/docs/font-style"
+    [components.typography.font_weight]
+    url = "https://tailwindcss.com/docs/font-weight"
+    [components.typography.font_variant_numeric]
+    url = "https://tailwindcss.com/docs/font-variant-numeric"
+    [components.typography.letter_spacing]
+    url = "https://tailwindcss.com/docs/letter-spacing"
+    [components.typography.line_clamp]
+    url = "https://tailwindcss.com/docs/line-clamp"
+    [components.typography.line_height]
+    url = "https://tailwindcss.com/docs/line-height"
+    [components.typography.line_style_image]
+    url = "https://tailwindcss.com/docs/list-style-image"
+    [components.typography.line_style_position]
+    url = "https://tailwindcss.com/docs/list-style-position"
+    [components.typography.line_style_type]
+    url = "https://tailwindcss.com/docs/list-style-type"
+    [components.typography.text_align]
+    url = "https://tailwindcss.com/docs/text-align"
+    [components.typography.text_color]
+    url = "https://tailwindcss.com/docs/text-color"
+    [components.typography.text_decoration]
+    url = "https://tailwindcss.com/docs/text-decoration"
+    [components.typography.text_decoration_color]
+    url = "https://tailwindcss.com/docs/text-decoration-color"
+    [components.typography.text_decoration_style]
+    url = "https://tailwindcss.com/docs/text-decoration-style"
+    [components.typography.text_decoration_thickness]
+    url = "https://tailwindcss.com/docs/text-decoration-thickness"
+    [components.typography.text_underline_offset]
+    url = "https://tailwindcss.com/docs/text-underline-offset"
+    [components.typography.text_transform]
+    url = "https://tailwindcss.com/docs/text-transform"
+    [components.typography.text_overflow]
+    url = "https://tailwindcss.com/docs/text-overflow"
+    [components.typography.text_wrap]
+    url = "https://tailwindcss.com/docs/text-wrap"
+    [components.typography.text_indent]
+    url = "https://tailwindcss.com/docs/text-indent"
+    [components.typography.vertical_align]
+    url = "https://tailwindcss.com/docs/vertical-align"
+    [components.typography.whitespace]
+    url = "https://tailwindcss.com/docs/whitespace"
+    [components.typography.word_break]
+    url = "https://tailwindcss.com/docs/word-break"
+    [components.typography.hyphens]
+    url = "https://tailwindcss.com/docs/hyphens"
+    [components.typography.content]
+    url = "https://tailwindcss.com/docs/content"
