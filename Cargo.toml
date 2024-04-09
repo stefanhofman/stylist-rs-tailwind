@@ -1,23 +1,7 @@
-[package]
-name = "stylist-tailwind"
-version = "0.1.4"
-edition = "2021"
-build = "build.rs"
-repository = "https://github.com/stefanhofman/stylist-rs-tailwind"
-license-file = "LICENSE"
-description = "Adds a bunch of tailwind classes for stylist-rs to quickly add css to yew applications"
-keywords = ["stylist", "stylist-rs", "tailwind", "css", "yew"]
+[workspace]
+members = [
+  "packages/stylist-tailwind",
+  "packages/stylist-tailwind-macros",
+]
 
-[lib]
-crate-type = ["cdylib", "rlib"]
-bench = false
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
-stylist = { version = "0.13", features = ["macros"] }
-
-[build-dependencies]
-reqwest = { version = "0.12", features = ["blocking"] }
-scraper = { version = "0.18" }
-toml = { version = "0.8" }
+resolver = "2"
