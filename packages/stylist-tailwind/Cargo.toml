@@ -1,9 +1,10 @@
 [package]
 name = "stylist-tailwind"
-version = "0.1.4"
+version = "0.2.1"
 edition = "2021"
 repository = "https://github.com/stefanhofman/stylist-rs-tailwind"
-license-file = "LICENSE"
+license = "MIT"
+readme = "../../README.md"
 description = "Adds a bunch of tailwind classes for stylist-rs to quickly add css to yew applications"
 keywords = ["stylist", "stylist-rs", "tailwind", "css", "yew"]
 
@@ -14,5 +15,5 @@ bench = false
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-stylist-tailwind-macros = { path = "../stylist-tailwind-macros" }
-stylist-tailwind-core = { path = "../stylist-tailwind-core" }
+stylist-tailwind-macros = { path = "../stylist-tailwind-macros", version = "0.2.0" }
+stylist-tailwind-core = { path = "../stylist-tailwind-core", version = "0.2.0" }
