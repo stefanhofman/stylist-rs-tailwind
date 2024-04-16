@@ -9,12 +9,13 @@ keywords = ["stylist", "stylist-rs", "tailwind", "css", "yew"]
 
 [lib]
 bench = false
-proc-macros = true
+proc-macro = true
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-stylist = { version = "0.13", features = ["macros", "parser"] }
-reqwest = { version = "0.12", features = ["blocking"] }
-scraper = { version = "0.18" }
-toml = { version = "0.8" }
+stylist-tailwind-core = { path = "../stylist-tailwind-core" }
+
+proc-macro2 = {version = "1.0.79" }
+quote = { version = "1.0.35" }
+syn = { version = "2.0" }

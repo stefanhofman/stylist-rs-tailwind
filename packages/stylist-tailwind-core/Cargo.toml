@@ -1,0 +1,21 @@
+[package]
+name = "stylist-tailwind-core"
+version = "0.1.4"
+edition = "2021"
+repository = "https://github.com/stefanhofman/stylist-rs-tailwind"
+license-file = "LICENSE"
+description = "Adds a bunch of tailwind classes for stylist-rs to quickly add css to yew applications"
+keywords = ["stylist", "stylist-rs", "tailwind", "css", "yew"]
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+bench = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lazy_static = { version = "1.4.0" }
+phf = { version = "0.11.2" }
+reqwest = { version = "0.12", features = ["blocking"] }
+scraper = { version = "0.18" }
+toml = { version = "0.8" }

@@ -2,6 +2,7 @@
 members = [
   "packages/stylist-tailwind",
   "packages/stylist-tailwind-macros",
+  "packages/stylist-tailwind-core",
 ]
 
 resolver = "2"
