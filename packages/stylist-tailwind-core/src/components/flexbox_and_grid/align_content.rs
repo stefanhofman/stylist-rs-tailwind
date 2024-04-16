@@ -1,0 +1,13 @@
+use phf::phf_map;
+
+pub static CLASSES: phf::Map<&'static str, &'static str> = phf_map! {
+    "content-normal" => "align-content: normal;",
+    "content-center" => "align-content: center;",
+    "content-start" => "align-content: flex-start;",
+    "content-end" => "align-content: flex-end;",
+    "content-between" => "align-content: space-between;",
+    "content-around" => "align-content: space-around;",
+    "content-evenly" => "align-content: space-evenly;",
+    "content-baseline" => "align-content: baseline;",
+    "content-stretch" => "align-content: stretch;",
+};

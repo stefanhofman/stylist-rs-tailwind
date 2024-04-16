@@ -1,4 +1,4 @@
-Stylist-tailwind contains a bunch of tailwind classes that you can use in Stylist.
+[Stylist tailwind](Stylist-tailwind) contains a bunch of tailwind classes that you can use in Stylist.
 
 ## Install
 
@@ -12,3 +12,13 @@ stylist-tailwind = "0.1.4"
 
 For detailed usage, please see
 [documentation](https://docs.rs/crate/stylist-tailwind/).
+
+```rust
+use yew::prelude::*;
+use stylist::Style;
+
+#[styled_component]
+fn MyStyledComponent() -> Html {
+    html! {<div class={Style::new(tw!("w-full px-4 my-8")).unwrap()}>{"Hello World!"}</div>}
+}
+```
