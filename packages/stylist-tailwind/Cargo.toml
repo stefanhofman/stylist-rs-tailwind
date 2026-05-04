@@ -17,3 +17,5 @@ bench = false
 [dependencies]
 stylist-tailwind-macros = { path = "../stylist-tailwind-macros", version = "0.2.0" }
 stylist-tailwind-core = { path = "../stylist-tailwind-core", version = "0.2.0" }
+
+stylist = { version = "0.13", features = ["macros", "parser"] }
